@@ -1,6 +1,152 @@
+/* Uiversal Selector  */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #717171;
+    font-family: "Inter";
 }
+
+/* Common classes  */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.my-btn {
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 10px;
+    background: rgb(70, 145, 101);
+    border: 2px solid #30B868;
+    cursor: pointer;
+   color: rgba(255, 255, 255, 1);
+    padding: 12px 25px;
+}
+
+
+/* navbar section style  */
+.header {
+    background-color:#FFFFFF;
+    padding: 20px;
+    
+
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* background-image: url("/Sections/Navbar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.navbar-section img {
+    width: 139px;
+    height: 60px;
+    padding: 16px 0;
+    color: #30B868;
+}
+.link-parent {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+.link-parent a {
+    text-decoration: none;
+    color:#333333 ;
+    margin: 34px 0;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    gap: 32px;
+}
+.link-parent a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+/* Banner section start from hare  */
+.banner-section {
+    text-align: center;
+    max-width: 2042px;
+    height: 400px;
+    border: 1px solid gray;
+    padding: 341px 154px;
+}
+
+/* .my-btn-2 {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    padding: 9px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+} */
+
+.my-btn-2 {
+    background-color: #FFFFFF;
+    color: #30B868 ;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    gap: 6;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    padding: 12px 16px 12px 16px;
+    background-color: #0f223428;
+    color: white;
+}
+
+
+.CheckCircle {
+    background-color: #FFFFFF;
+    color: #30B868 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.text-1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin:5px;
+}
+span {
+   font-size: 30px;
+     color: #30B868 ;
+    font-weight: bolder;
+    margin: 7px;
+}
+.banner-section p {
+    color:#FFFFFF;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+.banner-section {
+    background-image: linear-gradient( 120deg, rgba(31, 42, 55, 0.8),rgba(31, 42, 55, 0.5) ), url('/assets/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px 200px;
+    
+}
+
