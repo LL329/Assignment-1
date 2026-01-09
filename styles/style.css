@@ -113,6 +113,12 @@
     background-color: #0f223428;
     color: white;
     cursor: pointer;
+    
+}
+
+
+.my-btn:hover, .my-btn-2:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.779);
 }
 
 
