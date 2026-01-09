@@ -200,10 +200,12 @@ span {
   border-radius: 12px;
   padding: 28px;
   border: 1px solid rgba(14, 14, 14, 0.06);
+  /* border: 1px solid lightblue; */
   box-shadow: 0 4px 12px rgba(0,0,0,0.04);
   text-align: center;
   display: flex;
   flex-direction: column;
+  /* flex-direction: row-reverse; */
   align-items: center;
   gap: 15px;
   transition: transform 0.3s ease;
@@ -235,6 +237,8 @@ span {
   color: #627382;
   line-height: 1;
   max-width: 300px;
+  /* max-width: 700px; */
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 
@@ -263,6 +267,7 @@ span {
   flex: 1;
   display: flex;
   flex-direction: column;
+  /* flex-direction: column-reverse; */
   gap: 20px;
 }
 
@@ -271,12 +276,15 @@ span {
   font-weight: 400;
   color: #9BC4AC; 
   margin-bottom: 4px;
+  /* margin: 12px ; */
   text-transform: uppercase;
+  /* text-transform: capitalize; */
 }
 
 .title-section h2 {
   font-size: 42px;
   font-weight: 700;
+  /* font-weight: lighter; */
   color: #1f2a37;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -308,6 +316,7 @@ span {
   gap: 10px;
   font-size: 16px;
   color: #374151;
+  /* color: #7177171; */
 }
 
 .brain-secion-list li img {
@@ -324,6 +333,7 @@ span {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    /* margin: top; */
     padding: 40px;
     gap: 15px;
     margin: 120px;
@@ -353,9 +363,12 @@ span {
 
 /* Footer section start  */
 
+footer {
+    background:#001931 ;
+}
 .footer-parent {
   width: 100%;
-  background-color: #0b1f3a;
+  /* background-color: #0b1f3a; */
   padding: 60px 24px 100px;
   color: #ffffff;
   position: relative;
@@ -365,13 +378,13 @@ span {
   box-sizing: border-box;
 }
 
-/* Logo section */
+
 .img-section-footer img {
   max-width: 200px;
   height: auto;
 }
 
-/* Social block */
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -403,7 +416,7 @@ span {
   color: #60a5fa;
 }
 
-/* ✅ Fix hr so it stays inside icons block */
+
 .footer-p {
   width: 100%;
   position: absolute;
