@@ -75,6 +75,8 @@
 
 
 /* Banner section start from hare  */
+
+
 .banner-section {
     text-align: center;
     max-width: 2042px;
@@ -153,10 +155,7 @@ span {
 } 
 
 
-
-
-
-     /* Notes section  */
+ /* Notes section start from hare  */
 
 .notes-section-parent {
   margin: 80px auto;
@@ -240,7 +239,7 @@ span {
 
 
 /* Brain section style start from hare  */
-/* Parent container */
+
 .brain-parent {
   display: flex;
   align-items: center;
@@ -249,16 +248,17 @@ span {
   max-width: 1200px;
   margin: 80px auto;
   padding: 40px 20px;
+  margin: 120px;
 }
 
-/* Image section */
+
 .img-section img {
   max-width: 400px;
   height: auto;
   border-radius: 12px;
 }
 
-/* Title + content section */
+
 .title-section {
   flex: 1;
   display: flex;
@@ -269,7 +269,7 @@ span {
 .title-section h4 {
   font-size: 10px;
   font-weight: 400;
-  color: #9BC4AC; /* accent color */
+  color: #9BC4AC; 
   margin-bottom: 4px;
   text-transform: uppercase;
 }
@@ -291,6 +291,7 @@ span {
 }
 
 /* List styling */
+
 .brain-secion-list {
   list-style: none;
   padding: 0;
@@ -314,3 +315,115 @@ span {
   height: 20px;
 }
 
+/* Early access section  */
+
+.early-access {
+    max-width: 700;
+    background: #F7F6F2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 15px;
+    margin: 120px;
+}
+.access-btn {
+    margin: 10px 0;
+}
+
+.early-access p {
+  font-size: 13px;
+  color: #627382;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.early-access h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2a37;
+  margin-bottom: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* Footer section start  */
+
+.footer-parent {
+  width: 100%;
+  background-color: #0b1f3a;
+  padding: 60px 24px 100px;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* Logo section */
+.img-section-footer img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Social block */
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  min-width: 240px;
+}
+
+.icons h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #a7f3d0;
+  margin-bottom: 6px;
+}
+
+.social-link {
+  display: flex;
+  gap: 12px;
+}
+
+.social-link a {
+  color: #38bdf8;
+  font-size: 22px;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.social-link a:hover {
+  color: #60a5fa;
+}
+
+/* ✅ Fix hr so it stays inside icons block */
+.footer-p {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.footer-p hr {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 10px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.footer-p p {
+  font-size: 14px;
+  color: #94a3b8;
+  margin: 0;
+  white-space: nowrap;
+}
